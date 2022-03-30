@@ -1,0 +1,47 @@
+[
+    
+    {
+        "lvl": 30,
+        "gender": "male",
+        "name": "snorlax",
+        "originalTrainer": "Green",
+        "IDNo": 99819,
+        "item": "leftovers",
+        "nature": "docile",
+        "location": "Trade",
+        "foundLvl": 30
+    },
+    {
+        "lvl": 34,
+        "gender": "male",
+        "name": "nidoking",
+        "originalTrainer": "Green",
+        "IDNo": 32871,
+        "item": "none",
+        "nature": "hashy",
+        "location": "Safari zone",
+        "foundLvl": "19"
+    },
+    {
+        "lvl": 12,
+        "gender":"female",
+        "name":"aerodactyl",
+        "originalTrainer": "Green",
+        "IDNo": 10423,
+        "item":"none",
+        "nature": "naive",
+        "location":"Pallet Town",
+        "foundLvl": 5
+    },
+    {
+        "lvl": 20,
+        "gender":"male",
+        "name":"pikachu",
+        "originalTrainer":"Ash",
+        "IDNo": 33591,
+        "item": "pikachu ball",
+        "nature": "modest",
+        "location": "Trade",
+        "foundLvl": 4
+    }
+]
