@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pokeapi/static/css/main.2b913ae9.css",
+    "main.js": "/pokeapi/static/js/main.31b4e015.js",
+    "static/media/pokeball.png": "/pokeapi/static/media/pokeball.32cfee51008a5e441231.png",
+    "index.html": "/pokeapi/index.html",
+    "main.2b913ae9.css.map": "/pokeapi/static/css/main.2b913ae9.css.map",
+    "main.31b4e015.js.map": "/pokeapi/static/js/main.31b4e015.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b913ae9.css",
+    "static/js/main.31b4e015.js"
+  ]
+}
