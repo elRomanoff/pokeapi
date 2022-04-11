@@ -1,5 +1,6 @@
 import React from 'react'
 import DataItem from './DataItem'
+import "./aside.css";
 
 const claves = ["No", "NAME","TYPE", "OT","IDNo","ITEM"]
 

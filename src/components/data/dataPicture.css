@@ -1,0 +1,75 @@
+.data__picture {
+    width: 50%;
+    height: 316px;
+    border-right: 8px solid rgb(096, 096, 096);
+    border-bottom: 8px solid rgb(096, 096, 096);
+    background-color: rgb(200, 168, 232);
+    padding: 0px 8px 8px 8px;
+    box-shadow: 0px 8px 0 rgb(248, 232, 208), 8px 0px 0 rgb(248, 232, 208), 8px 8px 0 rgb(248, 232, 208)
+}
+.data__picture--titles {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data__picture--imgcontainer {
+    outline: 4px solid rgb(176, 136, 208);
+    width: 100%;
+    height: 240px;
+    background-color: rgb(248, 248, 248);
+    background-image: linear-gradient(0deg, rgb(248, 248, 248) 25%, rgb(232, 232, 232) 25%, rgb(232, 232, 232) 25%, rgb(232, 232, 232) 25%);
+    background-size: 12px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-pokemon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 188px;
+    position: relative;
+}
+
+.flex-pokeball-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 52px;
+}
+
+.imgcontainer__sprite--pokemon {
+    height: 180px;
+    position: relative;
+}
+
+.jump {
+    position: relative;
+    animation-name: jump;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    25% {
+        top: -32px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    75% {
+        top: -32px;
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+
+.imgcontainer__sprite--pokeball {
+    height: inherit;
+    margin-right: 16px;
+}

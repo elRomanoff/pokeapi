@@ -1,0 +1,50 @@
+.data-memo {
+    height: 180px;
+    width: 96%;
+    background-color: rgb(248, 240, 232);
+    align-self: center;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding: 12px 8px 0px 8px;
+    position: relative
+}
+
+.data-memo p {
+    padding-top: 16px;
+}
+
+.data-memo hr {
+    margin-top: -4px;
+    border: 2px solid rgb(232, 232, 191);
+    border-radius: 4px;
+}
+
+.data-memo .data--item--left {
+    position: absolute;
+    width: 260px !important;
+    top: -44px;
+    left: 0px
+}
+
+.data-memo .data--item--left::before {
+    width: 300px !important;
+    top: 28px;
+    left: -16px;
+}
+ 
+.underlined{
+    position: relative;
+    width: auto;
+    top: 0px;
+    left: 0px;
+}
+.underlined::before{
+    content:"";
+    position: absolute;
+    top: 52px;
+    left: 0px;
+    height: 4px;
+    width:100%;
+    background-color:rgb(232, 232, 191);
+    border-radius: 1px;
+}

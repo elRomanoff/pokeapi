@@ -1,0 +1,66 @@
+header {
+    height: 64px;
+    width: 100%;
+    background-color: rgb(0, 120, 192);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header div {
+    padding: 0px 16px;
+}
+
+.header__info {
+    width: 48.5%;
+    height: 100%;
+    background-color: rgb(224, 216, 152);
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgb(192, 184, 112);
+    border-right: 8px solid rgb(000, 072, 144);
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.header__info span {
+    min-width: 80px;
+}
+
+.long{
+    width: 56%!important
+}
+
+.longer{
+    width: 64%!important;
+}
+
+.header__buttons {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 28px;
+    right: 0;
+    text-align: center;
+}
+
+.header__buttons--button {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 20px;
+    height: 32px;
+    background-color: rgb(000, 072, 144);
+    border-radius: 8px;
+}
+.selected-btn{
+    background-color:white;
+}
+.covered-btn{
+    background-color: rgb(192,184,112);
+}
+
+.header__instructions {
+    font-size: 28px;
+}
