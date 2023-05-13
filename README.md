@@ -5,4 +5,4 @@ The original React code is in master branch
 
 link: https://elromanoff.github.io/pokeapi
 
-<img src="https://reliccastle.com/attachments/312/"/>
+<img src="https://i.imgur.com/ltTHc6K.png"/>
